@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
-class T4Tutorials
+class Fibonacci
 {
 private:
 	int a=0;
 	int b=1;
 	int t,num;
 	public:
-		T4Tutorials()
+		Fibonacci()
 		{
 			cout<<"enter the number :"<<endl;
 			cin>>num;
@@ -22,12 +22,12 @@ private:
 		}
 		friend int show(T4Tutorials);
 	};
-	int show(T4Tutorials num)
+	int show(Fibonacci num)
 	{
 		cout<<"\n";
 	}
 	int main()
 	{
-		T4Tutorials num;
+		Fibonacci num;
 		show(num);
 	}

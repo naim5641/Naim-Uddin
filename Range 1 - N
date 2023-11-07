@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+
+class Range
+{
+public:
+    void result();
+};
+void Range::result()
+{
+    int n;
+    cout << "Enter A number : "<<endl;
+    cin>>n;
+
+    for ( int i = 1; i <= n; i++)
+    {
+        if ( i % 2 == 0 && i % 5 == 0 )
+        {
+            cout<< i << " ";
+        }
+
+
+    }
+
+
+}
+
+int main()
+{
+    Range obj;
+    obj.result();
+
+
+    return 0;
+}
